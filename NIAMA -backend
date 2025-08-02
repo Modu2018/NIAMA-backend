@@ -1,0 +1,34 @@
+/niama-backend
+├── /src
+│   ├── /controllers
+│   │   ├── authController.js
+│   │   ├── postController.js
+│   │   ├── commentController.js
+│   │   ├── likeController.js
+│   │   ├── messageController.js
+│   │   ├── notificationController.js
+│   │   └── adminController.js
+│   ├── /models
+│   │   ├── userModel.js
+│   │   ├── postModel.js
+│   │   ├── commentModel.js
+│   │   ├── messageModel.js
+│   │   └── notificationModel.js
+│   ├── /routes
+│   │   ├── authRoutes.js
+│   │   ├── postRoutes.js
+│   │   ├── commentRoutes.js
+│   │   ├── likeRoutes.js
+│   │   ├── messageRoutes.js
+│   │   ├── notificationRoutes.js
+│   │   └── adminRoutes.js
+│   ├── /middlewares
+│   │   ├── authMiddleware.js
+│   │   ├── errorHandler.js
+│   │   └── validateRequest.js
+│   ├── app.js
+│   └── server.js
+├── .env
+├── .gitignore
+├── package.json
+└── README.md
