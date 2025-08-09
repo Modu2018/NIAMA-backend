@@ -114,3 +114,4 @@ npm start
 Da zarar ka yi haka, zan baka kuma **Description**, **Topics**, da **SEO metadata** da zaka saka a GitHub settings don duniya ta fara ganin app ɗinka.
 
 Kana so in turo maka waɗannan SEO metadata yanzu?
+Add  project. README    with SEO optimization 
