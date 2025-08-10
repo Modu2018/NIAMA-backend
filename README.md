@@ -115,3 +115,63 @@ Da zarar ka yi haka, zan baka kuma **Description**, **Topics**, da **SEO metadat
 
 Kana so in turo maka waɗannan SEO metadata yanzu?
 Add  project. README    with SEO optimization 
+# NIAMA Backend
+
+NIAMA is a social and business platform designed for secure communication, real-time interactions, and safe e-commerce.  
+This repository contains the backend services for the NIAMA application.
+
+---
+
+## 🚀 Features
+
+- **Real-time Chat**  
+  - Private & group messaging  
+  - Online/offline indicators  
+  - Message seen & delivered status  
+  - Custom emojis  
+  - Voice calls in private & group chats  
+
+- **User Profiles**  
+  - Profile picture upload & verification  
+  - Friend search by username, phone number, or group name  
+  - Privacy settings with fingerprint or pattern lock for chats  
+
+- **Status & Posts**  
+  - Post updates visible to friends anytime  
+  - Search for friends or groups easily  
+  - Timeline view  
+
+- **Marketplace**  
+  - Secure e-commerce transactions  
+  - Mandatory BVN, address & picture verification for sellers  
+  - No scams, fraud, or false advertising policy  
+  - Blue badge for verified sellers (paid feature)  
+
+- **Security**  
+  - OTP verification for registration (phone/email)  
+  - Two-minute OTP expiry for extra security  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend Framework:** Node.js / Express.js  
+- **Database:** MongoDB / PostgreSQL (depending on your config)  
+- **Authentication:** JWT & OTP system  
+- **Real-time:** Socket.IO for live chat and notifications  
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Modu2018/NIAMA-backend.git
+cd NIAMA-backend
+npm install
+PORT=5000
+MONGO_URI=your_mongo_connection
+JWT_SECRET=your_secret_key
+OTP_EXPIRY=120
+npm start
+README.md
